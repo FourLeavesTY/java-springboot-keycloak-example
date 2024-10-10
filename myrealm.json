@@ -1,0 +1,30 @@
+{
+    "realm": "myrealm",
+    "enabled": true,
+    "roles": {
+        "realm": [
+            {
+                "name": "default-role"
+            }
+        ]
+    },
+    "users": [
+        {
+            "username": "defaultuser",
+            "enabled": true,
+            "email": "defaultuser@example.com",
+            "firstName": "Default",
+            "lastName": "User",
+            "credentials": [
+                {
+                    "type": "password",
+                    "value": "password",
+                    "temporary": false
+                }
+            ],
+            "realmRoles": [
+                "default-role"
+            ]
+        }
+    ]
+}
