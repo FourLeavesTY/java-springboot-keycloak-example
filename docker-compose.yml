@@ -29,7 +29,7 @@ services:
     command: start-dev
 
   api:
-    image: java-app:latest
+    build: .
     ports:
       - "9942:8080"
     depends_on:
